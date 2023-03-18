@@ -6,7 +6,7 @@
 
 ### Project details ###
 
-The aim of the project was to predict whether a person is of a good or bad credit risk based on their attributes (features). Different machine learning models were explored to compare their performance. 
+The aim of the project was to predict whether a person is of good or bad credit risk based on their attributes (features). Different machine learning models were explored to compare their performance. 
 The models include CatBoost Classifier, eXtreme Gradient Boosting (XGBoost), Logistic Regression, Random Forest Classifier, Support Vector Machine(SVM), Linear Discriminant Analysis,  and Gradient Boosting Classifier.
 
 Different pre-processing techniques including Ordinal encoding, One hot encoding (OHE), Normalization and SMOTEENN data balancing were implemented.
