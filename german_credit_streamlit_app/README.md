@@ -1,19 +1,19 @@
-# Diamond Price Predictor App using Streamlit #
+# Credit risk App using Streamlit #
 
-## By: Nate DiRenzo ##
+## By: Noel K. ##
 
 ### Statement of Purpose ###
 
-The purpose of this repository is as a tutorial for creating a regression model that predicts the price of a diamond, and building a simple frontend application to make the model publicly available using Streamlit.
+In this project, a machine learning model for predicting credit risk is deployed using Streamlit. This is a demonstration of a simple application that a non-technical person or data science expert can use to input customer's attributes and tell whether the person is likely to pay back a loan or not (good credit risk vs bad credit risk)
 
 ### Data Description ###
 
-The data we will be using for this project is the [Diamonds](https://www.kaggle.com/datasets/shivam2503/diamonds) dataset, which is publicly available via Kaggle. It contains 53940 observations, and 10 features in the dataset.
+The UCI German credit dataset was used in this project - https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/german.data
 
 ### Tools ###
 
-- **Pandas** for accessing the data, and preparing the it for modeling.
+- **Pandas** for importing and processing the data so it can be modelled by a machine learning classifier
 
-- **XGBoost** for creating a gradient-boosted regression model.
+- **CatBoost** for training the data and predicting the labels
 
 - **Streamlit** for creating a frontend application
